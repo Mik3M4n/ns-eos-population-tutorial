@@ -1,0 +1,24 @@
+# Core numerical stack
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+
+# Astronomy/cosmology utilities
+astropy>=5.3
+
+# Progress bars and notebooks
+tqdm>=4.66
+ipywidgets>=8.0
+jupyterlab>=4.0
+ipykernel>=6.0
+
+# Probabilistic inference
+jax[cpu]>=0.4.25
+numpyro>=0.13
+arviz>=0.16
+corner>=2.2
+
+# NetCDF backend for ArviZ InferenceData output
+h5netcdf>=1.2
+netCDF4>=1.6
